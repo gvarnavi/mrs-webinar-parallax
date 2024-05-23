@@ -72,7 +72,7 @@ async def __(PotentialArray, defocus, np, sys):
         binned_volume_zxy = np.load(file_name)
 
     else:
-        binned_volume_zxy = np.load("data/"+file_name)
+        binned_volume_zxy = np.load("src/data-files/data/"+file_name)
     pixel_size = 2 / 3
     bin_factor_xy = 2
     bin_factor_z = 6
