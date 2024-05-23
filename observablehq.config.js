@@ -18,6 +18,7 @@ export default {
   head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32">',
   root: "src",
   pages: [
+    {name: "Phase Problem", path: "phase-problem"},
     {name: "Ray Diagrams", path: "ray-diagrams"},
     {name: "TEM/STEM Reciprocity", path: "reciprocity"},
     {name: "Tilt-Corrected BF-STEM", path: "parallax"},

@@ -1,5 +1,5 @@
 ---
-title: Ray Diagrams
+title: Phase Problem
 toc: false
 theme: [air, alt, wide]
 ---
@@ -24,26 +24,25 @@ theme: [air, alt, wide]
 />  
 
 ```js
-const marimo_html = FileAttachment("data/tem-ray-diagram.html").html();
+const marimo_html = FileAttachment("data/zernike-phase-plates.html").html();
 ```
-
   
 <div class="card">
 
-# Optical Ray Diagrams
-Ray diagrams are a convenient way to plot idealized electromagnetic radiation trajectories as they travel through various optical elements.
-They are used routinely in electron-microscopy to visualize various microscope components such as lenses and apertures.
+# Phase Problem
 
-Here, we show an example ray-diagram for a transmission-electron microscope operating in imaging mode.
+The "phase problem" &mdash; describing the loss of phase information of complex valued scattering samples during intensity measurements &mdash; is a well-known challenge in many imaging and diffraction fields including crystallography, astronomy, and microscopy.
 
-  <div id="marimo-island" style="max-width:640px;"> ${marimo_html.body} </div>
+Phase contrast imaging techniques, such as Zernike phase contrast microscopy (PCM), attempt to solve this by converting phase variations in the object plane into intensity variations in the imaging plane.
+
+  <div id="marimo-island"> ${marimo_html.body} </div>
+
 </div>
-
 
 <style type="text/css">
 
   #marimo-island img {
-    max-width: 75%;
+    max-width: 100%;
 }
 
 </style>
